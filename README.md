@@ -65,16 +65,6 @@ This project was developed as a coursework project combining Python, PySide6, an
 
 ---
 
-## 🛠 Editing Skills
-
-To edit the README.md you need:
-- Knowledge of **Markdown**
-- Basic understanding of **HTML**
-
-Markdown aligns text to the left by default, while HTML lets you control element positioning. To create interactive blocks, you can use **GitHub Actions** (only basic knowledge needed).
-
----
-
 ## 📃 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.

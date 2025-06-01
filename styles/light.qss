@@ -1,0 +1,100 @@
+QWidget {
+    background-color: #f7f7f7;
+    color: #222222;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* === КНОПКИ === */
+QPushButton {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #ffffff, stop:1 #eaeaea);
+    color: #222222;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Наведение — подсветка и голубой акцент */
+QPushButton:hover {
+    background-color: #f0f0f0;
+    border: 1px solid #66c;
+}
+
+/* Нажатие — затемнение */
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}
+
+/* === АКЦЕНТНЫЕ КНОПКИ === */
+QPushButton#importButton {
+    background-color: #e3edff;
+    border: 1px solid #88aaff;
+}
+
+QPushButton#quizButton {
+    background-color: #e1ffe4;
+    border: 1px solid #88ffaa;
+}
+
+QPushButton#exportButton {
+    background-color: #ffe3e3;
+    border: 1px solid #ff8888;
+}
+
+/* === ПОЛЯ ВВОДА === */
+QLineEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #66c;
+}
+
+/* === СПИСКИ === */
+QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+QListWidget::item:selected {
+    background-color: #ddeeff;
+    color: #000000;
+    border-radius: 6px;
+}
+
+/* === МЕТКИ === */
+QLabel {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* === ДИАЛОГОВЫЕ КНОПКИ === */
+QDialogButtonBox QPushButton {
+    min-width: 90px;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+/* === ПРОГРЕСС-БАР === */
+QProgressBar {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    text-align: center;
+    height: 20px;
+    background: #eeeeee;
+    color: #000000;
+}
+
+QProgressBar::chunk {
+    background-color: #66bbff;
+    border-radius: 5px;
+    margin: 1px;
+}

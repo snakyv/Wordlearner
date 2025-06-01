@@ -1,0 +1,26 @@
+{
+  "hello": {
+    "translation": "привіт",
+    "favorite": false
+  },
+  "cat": {
+    "translation": "кіт",
+    "favorite": false
+  },
+  "dog": {
+    "translation": "собака",
+    "favorite": false
+  },
+  "book": {
+    "translation": "книга",
+    "favorite": false
+  },
+  "sun": {
+    "translation": "сонце",
+    "favorite": false
+  },
+  "tree": {
+    "translation": "дерево",
+    "favorite": false
+  }
+}

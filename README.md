@@ -9,9 +9,6 @@ Application for learning foreign words with a modern Qt-based GUI (PySide6). Inc
 ![Last Commit](https://img.shields.io/github/last-commit/snakyv/Wordlearner?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-<h1 align="center">Hi there, I'm <a href="https://github.com/snakyv" target="_blank">Vitalii</a> <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Python developer, GUI enthusiast, working on educational tools 🇺🇦</h3>
-
 ---
 
 ## ✨ Project Description
@@ -75,14 +72,6 @@ To edit the README.md you need:
 - Basic understanding of **HTML**
 
 Markdown aligns text to the left by default, while HTML lets you control element positioning. To create interactive blocks, you can use **GitHub Actions** (only basic knowledge needed).
-
----
-
-## 📊 GitHub Stats
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=snakyv&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=snakyv)](https://git.io/streak-stats)
 
 ---
 

@@ -65,12 +65,6 @@ This project was developed as a coursework project combining Python, PySide6, an
 
 ---
 
-## 📃 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## ✉️ Author
 
 **Vitalii Zadorozhnyi**  

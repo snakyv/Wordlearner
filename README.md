@@ -68,7 +68,6 @@ This project was developed as a coursework project combining Python, PySide6, an
 ## ✉️ Author
 
 **Vitalii Zadorozhnyi**  
-Group: AD-231  
 Specialty: 126 — Information Systems and Technologies  
 Year: 2025  
 University: Odesa, Ukraine

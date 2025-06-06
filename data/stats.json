@@ -1,11 +1,12 @@
 {
-  "total_tests": 5,
-  "average_score": 63.33333333333333,
+  "total_tests": 7,
+  "average_score": 62.58503401360544,
   "hard_words": {
-    "cat": 9,
-    "hello": 1,
-    "tree": 1,
-    "sun": 1
+    "cat": 10,
+    "hello": 2,
+    "tree": 3,
+    "sun": 1,
+    "dog": 1
   },
   "history": [
     {
@@ -27,6 +28,14 @@
     {
       "date": "2025-05-30 15:22",
       "score": 33.33
+    },
+    {
+      "date": "2025-06-02 01:43",
+      "score": 50.0
+    },
+    {
+      "date": "2025-06-06 04:16",
+      "score": 71.43
     }
   ]
 }

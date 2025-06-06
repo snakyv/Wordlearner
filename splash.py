@@ -9,6 +9,5 @@ def show_splash(app, main_window):
     splash.show()
     splash.showMessage("Завантаження...", Qt.AlignBottom | Qt.AlignCenter, Qt.white)
 
-    # Задержка для имитации загрузки
     QTimer.singleShot(2000, splash.close)  # 2 секунды
     QTimer.singleShot(2000, main_window.show)

@@ -19,19 +19,16 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
         self._refresh_list()
 
-        # Применяем тему
         self.current_theme = "dark"
         self.current_style = self.load_style("styles/dark.qss")
         self.apply_styles(self.current_style)
 
-        # Подключаем иконки на кнопки
         self.ui.importButton.setIcon(QIcon("icons/import.png"))
         self.ui.exportButton.setIcon(QIcon("icons/export.png"))
         self.ui.resetButton.setIcon(QIcon("icons/reset.png"))
         self.ui.quizButton.setIcon(QIcon("icons/start.png"))
         self.update_theme_icon()
 
-        # Подключаем кнопки
         self.ui.importButton.clicked.connect(lambda: [self.animate_button(self.ui.importButton), self.open_import()])
         self.ui.quizButton.clicked.connect(lambda: [self.animate_button(self.ui.quizButton), self.start_quiz()])
         self.ui.resetButton.clicked.connect(lambda: [self.animate_button(self.ui.resetButton), self.reset_words()])
